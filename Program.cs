@@ -9,9 +9,9 @@ namespace dev_homework01
             Console.WriteLine("Hello World! - My name is: Francisco");
 
             //Constantes
-            const string nombre = "Francisco";
+            const string nombre = "Sharon";
             //Variables
-            int edad = 32;
+            int edad = 19;
         
             Console.WriteLine($"Mi nombre es: {nombre} y mi edad es { edad } años.");
 
