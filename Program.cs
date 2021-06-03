@@ -71,7 +71,101 @@ namespace dev_homework01
             Console.WriteLine("**************************************");
             Console.WriteLine("\n");
 
+            //ejercicio 1
 
+         var areaTriang = 0F;
+
+            float baase = 24.5F;
+            float altur = 30.1F;
+            const float doss = 2.0F;
+            areaTriangulo = baase * altur / doss;
+        
+            Console.WriteLine ($"Area de un triangulo es igual a la base: ({baase}) por la altura ({altur}) entre dos");
+            Console.WriteLine ($"Resultado Area: {areaTriang} ");
+
+          
+
+         var areaCirculo = 0F;
+
+            const float Pi = 3.1416F;
+            float Rcuadrado = 9F;
+            const float doos = 2.0F;
+            areaCirculo = Pi * Rcuadrado / doos;
+        
+            Console.WriteLine ($"Area de un circulo es igual Pi: ({Pi}) por Radio al cuadrado ({Rcuadrado}) entre dos");
+            Console.WriteLine ($"Resultado Area: {areaCirculo} ");
+
+
+
+         var areaCuadrado  = 0F;
+
+            float basse = 10;
+            float alturaa = 10;
+            
+            areaCuadrado = basse * alturaa;
+        
+            Console.WriteLine ($"Area de un cuadrado es igual a la base: ({basse}) por la altura ({alturaa})");
+            Console.WriteLine ($"Resultado Area: {areaCuadrado} ");
+
+         //ejercicio 2
+         
+         var porcentaje = 0F;
+
+            Console.WriteLine ($"si mi sueldo es de $100,000, ¿cuanto es el 10%?");
+            const float cienporciento = 100F;
+            const float sueldo = 100000F;
+            float X = 10F;
+
+            Console.WriteLine ($"Porcentaje es : el cienporciento({cienporciento}) por X  ({X}) entre sueldo ({sueldo})");
+            Console.WriteLine ($"Resultado porcentaje: {porcentaje} ");
+
+          //ejercicio 3
+
+         var domingo =0F;
+             
+            Console.WriteLine ($"Si de domingo me dan 15 pesos ¿cuanto dinero junte en 3 años?");
+            const float semanas = 156F;
+            const float dinero = 15F;
+            float años = 3F;
+
+            Console.WriteLine ($"domindo es: dinero({dinero}) por semanas({semanas}) por años ({años})");
+            Console.WriteLine ($"Resultado porcentaje: {domingo} ");
+
+         //ejercicio 4
+
+         var domingo1año = 0F;
+            Console.WriteLine ($" Si de domingo me dan 15 pesos y cada año me aumentan 20% ¿cuanto dinero junte en 5 años?");
+            const float  semanaas= 52F;
+            const float dineroo = 15F;
+            const float aumento= 20F;
+
+            Console.WriteLine ($"domindo es: dinero({dineroo}) por semanas({semanaas})  mas el 20% ({aumento})");
+            Console.WriteLine ($"Resultado porcentaje: {domingo1año} ");
+
+         var domingo1a5años= 0F;
+             float primeraño = 780F;
+             float segundoaño = 936F;
+             float terceraño = 1123.2F;
+             float cuartoaño = 1347.84F;
+             float quintoaño = 1617.408F;
+
+             Console.WriteLine ($"Mi domindo despues de 5 años es: la suma del primer año ({primeraño}) mas segundo año({segundoaño})  mas tercer año({terceraño})mas cuarto año({cuartoaño})  mas quinto año({quintoaño})");
+             Console.WriteLine ($"Resultado porcentaje: {domingo1a5años} ");
+
+         //ejercicio 
+
+
+
+
+             
+
+
+
+            
+
+
+
+    
         }
     }
 }
