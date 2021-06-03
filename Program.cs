@@ -152,19 +152,29 @@ namespace dev_homework01
              Console.WriteLine ($"Mi domindo despues de 5 años es: la suma del primer año ({primeraño}) mas segundo año({segundoaño})  mas tercer año({terceraño})mas cuarto año({cuartoaño})  mas quinto año({quintoaño})");
              Console.WriteLine ($"Resultado porcentaje: {domingo1a5años} ");
 
-         //ejercicio 
+         //ejercicio 5
 
-
-
-
+         var fibonacci = 0F;
              
+             Console.WriteLine ($"Investigar el problema de los conejos de Fibonacci (programar la respuesta.)");
+
+             float primermes = 1F;
+             float segundomes = 2;
+             float tercermes = 3;
+             float cuartomes= 5;
+             float quintomes = 8;
+             float sextomes = 13;
+
+             Console.WriteLine ($"cada mes una pareja tiene una parejita de otros conejos");
+             Console.WriteLine ($"para calcular la cantidad de conejos se: ({primermes})mantiene el primer mes uno({segundomes}) segundo mes do({tercermes})tercer mes tres({cuartomes})cuarto mes cinco({quintomes})quinto mes ocho({sextomes})sexto mes 13");
+             Console.WriteLine ($"Resultado porcentaje: {fibonacci} ");
+
+
+
 
 
 
             
-
-
-
     
         }
     }
